@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Working at my own pace let's gooo</title>
+    <title>4668811224424466881122.ann</title>
     <style>
         .button {
         transition-duration: 0.4s;
@@ -59,6 +59,10 @@
             transform: translateY(4px);
         }
         .button2 {border-radius: 12px;}
+        .hidekey {
+            text-align: center;
+            color: #3e8e41;
+        }
     </style>
     </style>
 </head>
@@ -66,13 +70,13 @@
     <marquee behavior="scroll" direction="up" scrollamount="1%" class = "marquee">Slow Scrolling</marquee>
     <marquee behavior="scroll" direction="right" scrollamount="12%" class = "marquee">Kinda Fast Scrolling</marquee>
     <marquee behavior="scroll" direction="left" scrollamount="20%" class = "marquee">Fast Scrolling</marquee>
-    <marquee behavior="scroll" direction="right" scrollamount="50%" class = "marquee">Very Fast Scrolling</marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="50%" class = "marquee" id="keyhash">Very Fast Scrolling</marquee>
     <br>
     <button class="button" onclick="coolFunction()">Hover for cool effect and click to get 200 quid</button>
-    <br>
+    <br>    
     <marquee behavior="scroll" direction="right" scrollammount="100"><img src="ea.png" width=425 height=425></marquee>
     <br>
-    <a class="a" href ="https://www.ea.com">EA</a>
+    <h1 onclick="joemama()""="keyhash">EA</a>
     <br>
     <a class="a" href ="https://undertale.com/">PLAY UNDERTALE</a>
     <br>
@@ -82,7 +86,11 @@
     <br>
     <marquee class="marquee" scrollamount="1%" direction="up">game test haha 2</marquee>
     <br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p> <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
+    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h1 class="hidekey" id="hidekey"></h1>
 </body>
 <script>
 var thingy = 0
@@ -101,6 +109,15 @@ function functionjoemama() {
     }
     gameon = 1
 }
+var elementIsClicked = false;
+function clickHandler(){
+  elementIsClicked = true;
+}
+
+var element = document.getElementById("keyhash");
+element.addEventListener("click", clickHandler);
+function joemama() {
+    document.getElementById("hidekey").innerHTML = "1 - ad3120dkaw";
+}
 </script>
 </html>
-
